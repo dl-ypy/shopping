@@ -1,0 +1,85 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#title {
+	margin-bottom: 15px;
+}
+
+#login tr {
+	height: 30px;
+}
+
+#title span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #6490BE;
+}
+
+#login {
+	width: 580px;
+	margin: 0px auto;
+}
+
+#login table {
+	border-collapse: collapse;
+}
+
+
+
+#login table span {
+	font-size: 10px;
+	line-height: 10px;
+	color: #CCCCCB;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+#login table td{
+	border: 2px solid #DAEDF7;
+	height: 25px;
+}
+
+#login #firsttd {
+	width: 105px;
+	text-align: right;
+	background-color: #E3F0F9;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#login #seondtd input{
+	width: 120px;
+	margin-left: 4px;
+}
+
+#login #firsttrtd {
+	border: none;
+}
+
+#login #firsttrtd span{
+	font-size: 13px;
+	font-weight: bold;
+	color: #F43822;
+	margin-left: 0px;
+}
+
+#login #sex{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#login #sex span{
+	margin-left: 78px;
+	font-size: 10px;
+}
+
+#submit {
+	text-align: center;
+	border: none !important;
+}
+
+#submit input{
+	margin-right: 20px;
+}

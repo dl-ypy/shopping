@@ -1,0 +1,357 @@
+/* CSS Document */
+
+/*闁氨鏁ら弽宄扮础*/
+
+*{
+	font-size:12px;
+	margin:0px;
+	padding:0px;}
+
+a,p,ul,li,dt {
+	color:#666;
+}
+
+a:link{
+	color:#999;
+	text-decoration:none;
+	}
+	
+a:hover{
+	text-docoration:underline;
+	color:red;
+	}
+
+
+
+
+/*婢舵挳鍎撮弽宄扮础*/
+#header{
+	
+	
+}
+/*婢舵挳鍎存い鍫曞劥閺嶅嘲绱�*/
+#header_top{
+	background:#FFFAD0;
+	height:28px;
+	line-height:28px;
+	}
+/*闂勬劕鍩楃�硅棄瀹抽惃鍒v閺嶅嘲绱�*/
+.limit_width{
+	width:1000px;
+	margin:0 auto;
+}
+
+/*婢舵挳鍎存い鍫曞劥瀹革箒绔熼弽宄扮础*/
+#top_left{
+	float:left;}
+/*婢舵挳鍎存い鍫曞劥閸欏疇绔熼弽宄扮础*/
+#top_right{
+	float:right;}
+/*鐢喖濮稉顓炵妇閺嶅嘲绱�*/
+#header #header_top .limit_width #top_right ul li{
+	list-style:none;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	background:url(../img/splitter.jpg) no-repeat right center;
+	}
+
+#header #header_top .limit_width #top_right ul  #service{
+	background:none;
+	
+	}
+#header #header_top .limit_width #top_right ul #phonee{
+	background:none;
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*鐠佹崘顓告径鎾劥Logo闁劌鍨庨弽宄扮础*/
+#header_mid{
+	
+	border:1px solid  transparent;
+	height:91px;
+	width:1000px;
+	margin:0 auto;
+	background:url(../img/logo.jpg) no-repeat;
+	
+	}
+	/*鐎佃鐖ｆ０妯荤埉鏉╂稖顢戦弽宄扮础鐠佹儳鐣�*/
+#header_mid ul li{
+	list-style:none;
+	float: left;
+	
+	height:40px;
+	width:100px;
+	text-align:center;
+	line-height:40px;	
+	background:url(../img/nav.jpg) no-repeat;
+	margin-left:10px;
+	
+	}
+	
+#header_mid ul #firstPage{
+	background:url(../img/nav-on.jpg) no-repeat;
+	}
+	
+#header_mid ul li a{
+	font-size:16px;
+	font-weight:bold;
+	}
+	
+#header_mid ul #firstPage a{
+		color:#FFF;
+	
+	}
+#header_mid ul li:hover{
+		color:#FFF;
+		background:url(../img/nav-on.jpg);
+		
+	}
+	
+#header_mid ul li:hover a{
+	
+	color:white;
+}
+
+#header_mid ul{
+	margin-left:253px;
+	margin-top:51px;
+	}
+/*鐎电懓銇旈柈銊ョ俺闁劏绻樼悰宀冾啎缂冿拷*/
+#header_bottom{
+	height:40px;
+	width:100%;
+	background:#157128;
+	
+	}
+	/*鐠佸墽鐤嗛崯鍡楁惂閸掑棛琚�*/
+#header_bottom #category{
+	height:40px;
+	width:207px;
+	background:url(../img/cat_title.jpg) no-repeat;
+	line-height:40px;
+	float: left;
+	}
+	/*鐠佸墽鐤嗛崯鍡楁惂閸掑棛琚惃鍕敶鐎硅鐗卞锟�*/
+#header_bottom #category p{
+	margin-left:30px;
+	font-weight:bold;
+	font-size:15px;
+	background:url(../img/arrow_down.jpg) no-repeat 85% 55%;
+	}
+	/*鐠佸墽鐤嗛幖婊呭偍閺嶅嘲绱�*/
+#header_bottom #search{
+	float: left;
+	height: 40px;
+	line-height: 36px;
+	margin-left: 10px;
+}
+#header_bottom #search input{
+	vertical-align:middle;
+	
+}
+#header_bottom #search #in_text{
+
+	height: 30px;
+	width: 130px;
+}
+/*閻戭參妫幖婊呭偍鐠佸墽鐤�*/
+#header_bottom #hot ul li{
+	list-style: none;
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	margin-left: 20px;
+}
+#header_bottom #hot ul{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+#header_bottom #hot ul li a{
+	color: #FFF;
+	font-weight: normal;
+}
+/*鐎电鍠橀悧鈺勬簠鏉╂稖顢戠拋鍓х枂*/
+#header_bottom #cart{
+	float: right;
+	height: 31px;
+	line-height: 31px;
+	
+}
+
+#header_bottom #cart ul li{
+	margin-top: 5px;
+	text-align: center;
+	list-style: none;
+	float: left;
+	
+}
+#header_bottom #cart ul #cart1{
+	width: 200px;
+	height: 31px;
+	background: url(../img/i_cart_1.jpg) no-repeat;
+}
+
+#header_bottom #cart ul #cart2{
+	width: 77px;
+	height: 31px;
+	background: url(../img/i_cart_4.jpg) no-repeat;
+}
+#header_bottom #cart ul li a{
+	color: #157128;
+}
+
+/*娑撹缍嬮弽宄扮础*/
+#main{
+	
+	}
+	
+/*鐎电懓涔忔潏绗礽v鏉╂稖顢戦弽宄扮础鐠佸墽鐤�*/
+#main .limit_width #mid_left{
+	width: 207px;
+	
+	
+	float: left;
+	
+}
+
+
+/*鐎电懓褰告潏绗礽v鏉╂稖顢戦弽宄扮础鐠佸墽鐤�*/
+#main .limit_width #mid_right{
+	width: 740px;
+	
+	float: right;
+	
+}
+/*鐎电懓涔忔潏绗礽v閸愬懎顔愭潻娑滎攽閺嶅嘲绱＄拋鍓х枂*/
+
+#main .limit_width #mid_left .notice{
+	width: 207px;
+	height: 200px;
+	border: 1px solid #157128;
+	
+}
+
+#main .limit_width #mid_left .goods{
+	width: 207px;
+	height: 300px;
+	border: 1px solid #157128;
+}
+
+
+
+.n_title{
+	height: 30px;
+	line-height: 30px;
+	background: #157128;
+}
+
+
+
+.n_title span{
+	color: white;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+
+.goods{
+	margin-top: 40px;
+}
+
+
+.n_content dl dd li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #157128;
+	background: url(../img/agree_item.gif) no-repeat  10%  50%;
+	padding-left: 40px;
+}
+
+.n_content dl dt{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #157128;
+	padding-left: 10px;
+}
+
+/*娑撹缍嬮崣瀹犵珶 閸熷棗鎼ч崶鍓у鐢啫鐪弽宄扮础*/
+#main .limit_width .mc_list{
+	height: 500px;
+	border-top: 1px dotted #157128;
+	
+}
+#main .limit_width .mc_list .mc_list_left{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#main .limit_width .mc_list .mc_list_left .mc_image{
+	height: 150px;
+	width: 200px;
+	border: 1px solid #666666;
+}
+#main .limit_width .mc_list .mc_list_left  p{
+	height: 35px;
+	line-height: 35px;
+	
+	background: url(../img/search.gif) no-repeat 30% 50%;
+}
+#main .limit_width .mc_list .mc_list_left  p a{
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 80px;
+	color: #157128;
+
+}
+
+
+/*娑撹缍嬮崣瀹犵珶 閸熷棗鎼ф穱鈩冧紖鐢啫鐪弽宄扮础*/
+#main .limit_width .mc_list .mc_list_right{
+	float: right;
+	width: 500px;
+	padding-top: 15px;
+}
+#main .limit_width .mc_list .mc_list_right p{
+	height: 25px;
+	line-height: 25px;
+	
+}
+
+#main .limit_width .mc_list .mc_list_right #mc_message{
+	height: 75px;
+	line-height: 25px;
+}
+
+#main .limit_width .mc_list .mc_list_right #mc_button{
+	margin-top: 10px;
+	text-align: right;
+}
+
+
+/*#main .limit_width #mid_left .notice{
+	width: 207px;
+	height: 200px;
+	border: 1px solid yellow;
+	
+	
+}
+
+#main .limit_width #mid_left .notice p{
+	height: 30px;
+	line-height: 30px;
+	background:#157128 ;
+	color: white;
+	font-weight: bold;
+	padding-left: 30px;
+}*/
+
+/*鎼存洟鍎撮弽宄扮础*/
+#footer{
+	}
+	
